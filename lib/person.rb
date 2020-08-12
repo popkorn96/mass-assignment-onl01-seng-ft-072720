@@ -4,4 +4,3 @@ class Person
     attributes.each{|key,value| mself.send(("#{key}="), value)
   end
 end
-end
